@@ -35,6 +35,7 @@ foreach ($rows as $row) {
 		),
 		'properties' => array(
 			'description' => $description,
+			'url'         => $url,
 		),
 	);
 	$feature['properties'] = array_merge($feature['properties'], $style);
